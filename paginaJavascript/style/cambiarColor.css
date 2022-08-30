@@ -1,0 +1,39 @@
+.cambiaColor{
+    background-color: rgb(46, 45, 45);
+  
+}
+.cambiaColor .menu{
+    background-color: rgb(27, 151, 151);
+}
+
+
+
+.cambiaColor .contenedor-login{
+    background-color: red;
+
+}
+
+.cambiaColor .lema{
+    background-color: #e3e0e0;
+    color:#0a0a0a;
+    padding: 20px 25px;
+    /* border-radius: 10px; */
+  }
+
+  .cambiaColor .titulo-principal{
+      color: white;
+  }
+
+  .cambiaColor .carrera-descricion{
+      background-color: rgb(102, 107, 101);
+  }
+
+  footer{
+    background-color: rgb(27, 151, 151);
+  }
+
+  .cambiaColor #botonArriba{
+  background-color: white ;
+border-radius: 50%;
+
+  }

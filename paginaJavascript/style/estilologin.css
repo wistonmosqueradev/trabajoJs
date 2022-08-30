@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* ----------inicio menu y logo------------ */
+  .menu {
+    border-radius: 20px;
+    width: 90%;
+    height: 120px;
+    padding: 40px;
+    margin: auto;
+    background-color: #060606;
+margin-top: 60px;
+  
+    /* position: fixed; */
+    border-bottom: #ffcb05  solid 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-menu {
+    width: 100px;
+    margin-left: 20px;
+  }
+  .menu ul {
+    list-style: none;
+    margin-right: 20px;
+  }
+  .menu ul li {
+    display: inline-block;
+  }
+  .menu ul li a {
+    border-radius: 2px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .menu ul li a:hover {
+    color: #1655b2;
+    background-color: white;
+    cursor: pointer;
+  }
+  /* --------------------fin menu --------------------------- */
+
+
+  /* ------------------------------------------------ */
+   .contenedor-login{
+position: absolute;
+      width: 400px;
+      height: 400px;
+      background-color: #02cffd;
+      opacity: 0;
+      border-radius: 10px;
+      top: 100px;
+left: 500px;
+z-index: 2;
+
+  
+  }
+  .show {
+    opacity: 1;
+  }
+  .titulo-login{
+   text-align: center;
+   padding-top: 20px;
+   font-size: 35px;
+   font-weight: bold;
+   border-bottom: #ffcb05 solid 5px;
+  }
+  .casilla{
+      padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+ input{
+     width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .boton-eniar {
+    display: flex;
+    margin: auto;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  .login-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .restableser {
+    font-size: 20px;
+  
+    color: rgb(11, 11, 11);
+    font-weight: bold;
+  
+    margin: 10px 0px;
+  }
+  .cerrar {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+  } 
+  /* titulo principal */
+  .titulo-principal{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+  }
+  .c-13{
+    color: #ffac05;
+  }
+  .lema{
+    background-color: #060606;
+    color:#ffac05;
+    padding: 20px 25px;
+    /* border-radius: 10px; */
+  }
+  .fondo{
+    width: 70%;
+    height: 400px;
+ 
+    margin: auto;
+    margin-top: 100px;
+
+  }
+  .fondo img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius:10px ;
+    box-shadow: 4px 3px 5px 1px black;
+  
+  }
+
+/* secion de carrera */
+  .carrea{
+    margin: auto;
+    width: 90%;
+    height: 400px;
+    display: flex;
+ 
+    margin-top: 50px;
+
+  }
+  .carrera-descricion{
+    width: 450px;
+    height: auto;
+    background-color: #f8f6f6;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 1px black;
+  }
+  .carrera-descricion:hover{
+    border: 1px solid rgb(4, 204, 239);
+
+ 
+  }
+  
+.titulo-carrera{
+  background-color: #02cffd;
+  width: 50%;
+  height: 40px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+margin-top: 20px;
+display: flex;
+border-radius: 40px;
+}
+hr{
+  width: 100%;
+margin-top: 20px;
+
+  
+}
+
+footer{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+    background-color: #121213;
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+   
+ 
+}
+
+.footer .footer-logo a img{
+  padding-top: 25px;
+  width: 100px;
+  margin: auto;
+  display: flex;
+}
+
+.contenedor-footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 20px;
+
+}
+.contenedor-footer .card 
+.contenedor-titulo h4{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.contenedor-footer .card{
+margin: auto;
+}
+.card-lista{
+  margin-top: 20px;
+}
+
+.card-lista ul li a{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.card-lista ul li{
+text-decoration: none;
+list-style: none;
+padding: 3px;
+
+}
+
+.icono-redes{
+ background-color: white;
+
+}
+.icono-redes:hover{
+
+  background-color: yellow;
+}
+hr{
+  width: 90%;
+  margin: auto;
+}
+.derecho-autores{
+  color: white;
+  text-align: center;
+
+}
+
+
+
+#botonArriba{
+position: fixed;
+bottom: 20px;
+right: -100px;
+width: 40px;
+transition: all 1s;
+background-color: #ffcb05 ;
+border-radius: 50%;
+
+}
+
+.decri-carrera{
+  font-size: 18px;
+align-items: center;
+  
+}
+.boton-cambiarFondo{
+  background-color: #02cffd;
+  padding: 5px 3px;
+  border-radius: 10px;
+}
+
+.boton{
+  text-align: center;
+  margin-top: 20px;
+
+ font-size: 20px;
+}
+.boton a{
+  color: #060606;
+  list-style: none;
+  text-decoration: none;
+  background-color: #f9ca30;
+  width: 30%;
+  height: 40px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+margin-top: 20px;
+display: flex;
+border-radius: 40px;
+}
